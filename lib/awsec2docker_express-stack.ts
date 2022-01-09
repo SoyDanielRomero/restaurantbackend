@@ -19,12 +19,12 @@ export class Awsec2dockerExpressStack extends cdk.Stack {
  const helloTaskDefinition = new ecs.Ec2TaskDefinition(this, 'hello-task-definition', {});
 
   const helloContainer = helloTaskDefinition.addContainer('hello', {
-    image: ecs.ContainerImage.fromDockerHub ('jrwtango/expresscolor'),
+    image: ecs.ContainerImage.fromDockerHub ('soydanielromero/capstone:restaurantbackend'),
     memoryLimitMiB: 128
   });
 
   helloContainer.addPortMappings({
-    containerPort: 3000
+    containerPort: 1337
   });
 
   const helloService = new ecs.Ec2Service(this, 'hello-service', {

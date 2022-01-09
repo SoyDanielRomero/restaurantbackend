@@ -18,4 +18,4 @@ RUN npm run build
 EXPOSE 1337
 
 # Running the backend
-CMD "npm" "strapi" "start"
+CMD "npm" "run" "start"
