@@ -19,7 +19,7 @@ export class Awsec2dockerExpressStack extends cdk.Stack {
  const helloTaskDefinition = new ecs.Ec2TaskDefinition(this, 'hello-task-definition', {});
 
   const helloContainer = helloTaskDefinition.addContainer('hello', {
-    image: ecs.ContainerImage.fromDockerHub ('soydanielromero/capstone:restaurantbackend'),
+    image: ecs.ContainerImage.fromDockerHub ('soydanielromero/capstone:restaurantbackendstrapi'),
     memoryLimitMiB: 128
   });
 
