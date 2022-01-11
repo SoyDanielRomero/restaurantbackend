@@ -1,4 +1,4 @@
-name: Upload Website
+name: Upload Website 2
 on:
   push:
 jobs:
