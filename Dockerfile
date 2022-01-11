@@ -8,14 +8,14 @@ WORKDIR /usr/src/backend
 
 # Installing dependencies
 COPY package*.json /usr/src/backend/
-RUN npm install
+RUN yarn install
 
 # Copying source files
 COPY . /usr/src/backend
 
 # Building backend
-RUN npm run build
+RUN yarn build
 EXPOSE 1337
 
 # Running the backend
-CMD "npm" "run" "start"
+CMD "yarn" "start"
