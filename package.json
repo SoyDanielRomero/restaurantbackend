@@ -11,24 +11,24 @@
     "lint": "eslint ."
   },
   "devDependencies": {
-    "babel-eslint": "^10.0.0",
-    "eslint": "^6.0.0",
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-plugin-import": "^2.18.0",
-    "eslint-plugin-react": "^7.14.0"
+    "babel-eslint": "10.0.0",
+    "eslint": "6.0.0",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-plugin-import": "2.18.0",
+    "eslint-plugin-react": "7.14.0"
   },
   "dependencies": {
-    "@aws-cdk/aws-ecs": "^1.138.2",
-    "@aws-cdk/aws-elasticloadbalancingv2": "^1.138.2",
-    "@aws-cdk/cdk": "^0.36.1",
+    "@aws-cdk/aws-ecs": "1.138.2",
+    "@aws-cdk/aws-elasticloadbalancingv2": "1.138.2",
+    "@aws-cdk/cdk": "0.36.1",
     "knex": "^0.21.6",
-    "lodash": "^4.17.5",
-    "source-map-support": "^0.5.21",
-    "sqlite3": "^5.0.0",
+    "lodash": "4.17.5",
+    "source-map-support": "0.5.21",
+    "sqlite3": "5.0.0",
     "strapi": "3.0.0-beta.14",
     "strapi-admin": "3.0.0-beta.14",
     "strapi-hook-bookshelf": "3.0.0-beta.14",
-    "strapi-hook-knex": "^3.0.0-beta.14",
+    "strapi-hook-knex": "3.0.0-beta.14",
     "strapi-plugin-content-manager": "3.0.0-beta.14",
     "strapi-plugin-content-type-builder": "3.0.0-beta.14",
     "strapi-plugin-email": "3.0.0-beta.14",
@@ -37,7 +37,7 @@
     "strapi-plugin-upload": "3.0.0-beta.14",
     "strapi-plugin-users-permissions": "3.0.0-beta.14",
     "strapi-utils": "3.0.0-beta.14",
-    "stripe": "^8.195.0"
+    "stripe": "8.195.0"
   },
   "author": {
     "name": "A Strapi developer + updates john R Williams jrw@mit.edu"
