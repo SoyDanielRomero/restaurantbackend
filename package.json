@@ -10,13 +10,6 @@
     "strapi": "strapi",
     "lint": "eslint ."
   },
-  "devDependencies": {
-    "babel-eslint": "10.0.0",
-    "eslint": "6.0.0",
-    "eslint-config-airbnb": "17.1.0",
-    "eslint-plugin-import": "2.18.0",
-    "eslint-plugin-react": "7.14.0"
-  },
   "dependencies": {
     "@aws-cdk/aws-ecs": "1.138.2",
     "@aws-cdk/aws-elasticloadbalancingv2": "1.138.2",
